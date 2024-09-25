@@ -1,0 +1,32 @@
+@import url(/global-styles.css);
+/* EXERCISE #3 */
+.php-body{
+    max-height: 100% !important;
+    width: 20%;
+    padding: 1rem;
+    margin-top: .5rem;
+    border-radius: 1rem;
+    border-color: var(--lm-font-b-color) 2px solid;
+    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
+    background-color: var(--lm-dpdn-bg-color);
+}
+.btn-styles{
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    text-align: justify;
+    background: var(--lm-btn-bg-color);
+    border: none;
+    color: var(--lm-bg-color);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
+}
+.btn-styles:hover{
+    background-color: var(--lm-dpdn-hover-bg-color);
+    color: var(--lm-font-w-color);
+    cursor: pointer;
+}
+/* END OF EXERCISE #3 */

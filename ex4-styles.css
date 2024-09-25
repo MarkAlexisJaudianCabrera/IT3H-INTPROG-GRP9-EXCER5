@@ -1,0 +1,45 @@
+@import url("/global-styles.css");
+/* EXERCISE #4 */
+.php-excercise-4{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    color: var(--lm-font-w-color);
+}
+.php-excercise-4 .body-content{
+    margin: auto;
+    align-self: center;
+    align-items: center;
+    max-width: 95%;
+    background-color: var(--lm-ex4-bg-color);
+    border: var(--lm-dpdn-hover-bg-color) solid;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.php-excercise-4 .content-1, .php-excercise-4 .content-2, .php-excercise-4 .content-3
+{
+    overflow: hidden;
+    margin: auto;
+    margin-left: 1rem;
+    align-self: center;
+    align-items: center;
+    display: inline-block;
+    max-height: 100%;
+    max-width: 78%;
+    height: 15rem;
+    width: 31.5rem;
+    background-color: var(--lm-ex4-bg-color);
+    border: var(--lm-dpdn-hover-bg-color) solid;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.content-1, .content-2, .content-3::-webkit-scrollbar{
+    width: 1px;
+}
+.php-excercise-4 input{
+    font-size: .8vw;
+}
+.php-excercise-4 ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+/* END OF EXERCISE #4 */
